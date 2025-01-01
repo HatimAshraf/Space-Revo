@@ -42,7 +42,7 @@ function Navbar() {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } md:hidden absolute bg-neutral-50 flex flex-col justify-center items-center w-full py-5 px-4 mt-2 border-b-4`}
+        } md:hidden absolute bg-neutral-50 flex flex-col items-center w-full py-5 px-4 mt-2 `}
       >
         {LINKS.map((link, index) => (
           <a
