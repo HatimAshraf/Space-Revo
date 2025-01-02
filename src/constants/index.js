@@ -37,8 +37,8 @@ export const LINKS = [
     link: '#about',
   },
   {
-    name: 'Reviews',
-    link: '#reviews',
+    name: 'Testimonials',
+    link: '#testimonials',
   },
   {
     name: 'Contact',

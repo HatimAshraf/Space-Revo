@@ -3,10 +3,10 @@ import { ABOUT } from '../constants';
 
 function About() {
   return (
-    <section className='max-w-7xl mx-auto p-2 md:p-4 border-b-2' id='about'>
+    <section className='max-w-7xl mx-auto p-2 border-b-2 mt-2' id='about'>
       <div className='my-20'>
         <h2 className='text-xl lg:text-3xl tracking-tight text-center uppercase mb-12 mx-4'>
-          About
+          About Us
         </h2>
         <div className='flex flex-col items-center mx-8 lg:space-x-8 mb-20'>
           <div className='mb-8 lg:mb-0'>
