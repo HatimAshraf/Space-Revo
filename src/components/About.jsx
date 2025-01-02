@@ -16,7 +16,7 @@ function About() {
               className='w-full h-auto'
             />
           </div>
-          <p className='max-w-5xl mx-auto text-lg lg:text-3xl font-light text-center lg:text-left mt-8 '>
+          <p className='max-w-5xl mx-auto lg:text-3xl lg:leading-relaxed text-center lg:text-left mt-8 '>
             {ABOUT.description}
           </p>
         </div>
