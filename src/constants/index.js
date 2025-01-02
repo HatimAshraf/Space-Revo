@@ -44,6 +44,10 @@ export const LINKS = [
     name: 'Contact',
     link: '#contact',
   },
+  {
+    name: 'Humna',
+    link: '#',
+  },
 ];
 
 export const HERO_CONTENT = {
