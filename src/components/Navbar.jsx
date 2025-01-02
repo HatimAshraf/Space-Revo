@@ -42,13 +42,13 @@ function Navbar() {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } md:hidden absolute bg-neutral-50 flex flex-col items-center w-full py-5 px-4 mt-2 `}
+        } md:hidden absolute backdrop-blur-lg group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center w-full py-5 px-4 my-8 `}
       >
         {LINKS.map((link, index) => (
           <a
             href={link.link}
             key={index}
-            className='uppercase text-lg font-medium block py-2 tracking-wide'
+            className='uppercase text-xl font-bold block py-2 tracking-wide'
           >
             {link.name}
           </a>

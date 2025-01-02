@@ -2,7 +2,7 @@ import { HERO_CONTENT } from '../constants';
 
 function Hero() {
   return (
-    <section className='max-w-7xl mx-auto p-2 md:p-4 border-b-2'>
+    <section className='max-w-7xl mx-auto p-2 md:p-4 border-b-2' id='home'>
       <div className='flex flex-col items-center my-20'>
         <h1 className='text-6xl md:text-[7rem] lg:text-[10rem] p2 uppercase font-bold'>
           {HERO_CONTENT.title}

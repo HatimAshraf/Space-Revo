@@ -17,6 +17,12 @@ import user4 from '../assets/user4.webp';
 import user5 from '../assets/user5.webp';
 import user6 from '../assets/user6.webp';
 
+export const ABOUT = {
+  title: 'About',
+  description:
+    'At Space-Revo, We believe in transforming your living space with our expert renovation services. From kitchen and bathroom remodels to complete home overhauls, we deliver exceptional results that exceed your expectations. We are a team of experienced professionals who are dedicated to providing you with the best possible service. Our mission is to provide you with the best possible service, with a focus on quality and customer satisfaction. Passion for excellence is our driving force and a commitment to excellence is our promise. We specialize in providing you with the best possible service, with a focus on quality and customer satisfaction. Our team is here to help you every step of the way.',
+};
+
 export const LINKS = [
   {
     name: 'Services',
@@ -49,6 +55,12 @@ export const Headings = {
   title: 'Our Home Renovation Services',
   description:
     'Transform your living space with our expert renovation services. From kitchen and bathroom remodels to complete home overhauls, we deliver exceptional results that exceed your expectations.',
+};
+
+export const PORTFOLIO_HEADINGS = {
+  title: 'Our Portfolio',
+  description:
+    'Explore our collection of stunning home renovation projects. From modern kitchens to luxurious bathrooms, each project showcases our commitment to excellence and attention to detail.',
 };
 
 export const SERVICES_CONTENT = [
