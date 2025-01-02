@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../assets/logo.png';
+import logo from '../assets/icon.png';
 import { RiCloseLine, RiMenu3Line } from '@remixicon/react';
 import { LINKS } from '../constants';
 
@@ -15,7 +15,7 @@ function Navbar() {
       <div className='max-w-7xl mx-auto flex justify-between items-center py-8'>
         <div className='pl-2'>
           <a href='#'>
-            <img src={logo} alt='logo' width={175} height={35} />
+            <img src={logo} alt='logo' width={50} height={20} />
           </a>
         </div>
         <div className='md:hidden'>
